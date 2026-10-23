@@ -7,9 +7,9 @@
 export type Palette = { from: string; via: string; to: string; accent: string };
 
 export const profile = {
-  fullName: 'Dasari Venkata Ratna Sri Sushmita',
-  displayName: 'Sushmita Dasari',
-  firstName: 'SUSHMITA',
+  fullName: 'Sonawane Rajesh Swapnil',
+  displayName: 'Swapnil Sonawane',
+  firstName: 'SWAPNIL',
   seriesTag: 'THE SERIES',
   /** Fictional studio card shown at the very start of the opening sequence. */
   originalLabel: 'A DASARI ORIGINAL',
