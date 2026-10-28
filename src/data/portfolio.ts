@@ -10,57 +10,67 @@ export const profile = {
   fullName: 'Sonawane Rajesh Swapnil',
   displayName: 'Swapnil Sonawane',
   firstName: 'SWAPNIL',
-  seriesTag: 'THE SERIES',
+  seriesTag: 'THE PROFESSIONAL PROFILE',
   /** Fictional studio card shown at the very start of the opening sequence. */
-  originalLabel: 'A DASARI ORIGINAL',
-  role: 'Full-Stack Developer',
-  tagline: ['Full-Stack Developer', 'AI / ML', 'Java'],
+  originalLabel: 'A Swapnil ORIGINAL',
+  role: 'QA Lead / Agile Scrum Master',
+  tagline: ['Quality Assurance', 'Testing', 'Agile Delivery'],
   intro:
-    'A B.Tech Artificial Intelligence & Machine Learning student (CGPA 9.10) and full-stack developer building AI-powered platforms, payment systems and multi-tenant SaaS with Java, Python, React, Node.js and Docker.',
-  location: 'Surampalem, Andhra Pradesh',
-  email: 'sushmitadasari17@gmail.com',
+    'A B.Tech Artificial Intelligence & Machine Learning student (CGPA 9.10) and QA Lead ensuring the quality and reliability of AI-powered platforms, payment systems and multi-tenant SaaS with Java, Python, React, Node.js and Docker.',
+  location: 'Navi Mumbai, Maharashtra',
+  email: 'mr.swapnilrsonawane@gmail.com',
   links: {
-    linkedin: 'https://www.linkedin.com/in/sushmita-dasari-227a40284/',
-    github: 'https://github.com/Sushmitadasari',
+    linkedin: 'https://www.linkedin.com/in/swapnil-sonawane-5437b310b',
+    github: 'https://github.com/SwapnilSonawane',
   },
-  resumePdf: '/assets/Sushmita_Dasari_Resume.pdf',
+  resumePdf: '/assets/Swapnil_Sonawane_Resume.pdf',
   portrait: {
-    src: '/assets/portrait-720.webp',
+    src: '/assets/Swapnil.jpeg',
     srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
-    alt: 'Portrait of Sushmita Dasari',
+    alt: 'Portrait of Swapnil Sonawane',
   },
-  interests: ['System Design', 'Cloud Computing (AWS)', 'Machine Learning'],
+  interests: ['Content Writing', 'Designing', 'Public Speaking'],
 };
 
 export const education = [
   {
-    school: 'Aditya Engineering College',
-    place: 'Surampalem',
-    degree: 'Bachelor of Technology — Artificial Intelligence and Machine Learning',
-    period: 'October 2023 – Present',
-    score: 'CGPA 9.10',
+    school: 'Indian Institute of Information Technology, Bangalore (IIIT-B)',
+    place: 'Bangalore',
+    degree: 'Data Science (Business Analyst)',
+    period: 'June 2022 – April 2023',
   },
   {
-    school: 'Sri Chaitanya Junior College',
-    place: 'Kakinada',
-    degree: 'BIEAP — MPC',
-    period: 'June 2021 – May 2023',
-    score: 'Score 925/1000',
+    school: 'University of Mumbai',
+    place: 'Navi Mumbai',
+    degree: 'Bachelor of Engineering',
+    period: 'July 2013 – May 2017',
   },
 ];
 
 export const experience = [
   {
-    company: 'Technical Hub Pvt Ltd',
-    role: 'Trainee',
-    place: 'Surampalem, AP',
-    period: 'May 2025 – June 2026',
+    company: 'Sodel Software Solutions Pvt Ltd',
+    role: 'QA Lead / Agile Scrum Master',
+    place: 'Navi Mumbai, Maharashtra',
+    period: 'September 2022 – Present',
     points: [
       'Completed one year of intensive Full-Stack Development (FSD) training covering frontend, backend, database integration, and deployment workflows.',
       'Developed responsive and functional web applications by implementing user interfaces, server-side logic, and database connectivity.',
       'Deployed and managed web applications while applying version control, debugging, and end-to-end development practices.',
     ],
   },
+  {
+    company: 'Here Solutions India Pvt Ltd',
+    role: 'Spatial Data Specialist II / Scrum Master',
+    place: 'Navi Mumbai',
+    period: 'September 2018 – September 2022',
+    points: [
+      'Clarified Scrum goals and actions to support team transparency.',
+      'Removed impediments and supported continuous improvement to increase team efficiency and capacity.',
+      'Executed sprint release plans, release trajectory, and release burn-down using capacity and velocity predictions.',
+      'Gathered and communicated stakeholder requirements for product and sprint backlogs.',
+    ],
+  }
 ];
 
 export type Metric = { value: string; label: string };
@@ -83,8 +93,8 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'policyguard-ai',
-    title: 'PolicyGuard AI',
+    id: 'Agile-leadership',
+    title: 'QA Agile leadership',
     year: '2026',
     genre: 'AI • NLP • LLM',
     logline: 'An AI-powered policy analysis platform across web, browser extension, mobile and desktop applications.',
@@ -220,22 +230,9 @@ export const achievements: Achievement[] = [
 export type Certification = { issuer: string; name: string; link: string };
 
 export const certifications: Certification[] = [
-  { issuer: 'NPTEL', name: 'Database Management System', link: 'https://drive.google.com/file/d/1MqkJHchXeaGD4S8mzPmEGxEYddAsxAjN/view?usp=drive_link' },
-  { issuer: 'NPTEL', name: 'Fundamentals of Artificial Intelligence', link: 'https://drive.google.com/file/d/1GqyUQ-lrE-bHaN457t6fIdssgGG4HMXf/view?usp=drive_link' },
-  { issuer: 'NPTEL', name: 'Deep Learning', link: 'https://drive.google.com/file/d/1PWSRP5SQDPzkoTCF3A24eIJoSpTwgsff/view?usp=sharing' },
-  { issuer: 'AWS', name: 'AWS Certified AI Practitioner', link: 'https://drive.google.com/file/d/1h8e5p0a9T6f5gBaOP2ROfwWHZfkkspGn/view?usp=drive_link' },
-  { issuer: 'AWS', name: 'AWS Academy Graduate – Cloud Foundations', link: 'https://www.credly.com/badges/2d4810f9-3dbe-444d-99b9-61312ea5e7df/public_url' },
-  { issuer: 'MongoDB', name: 'MongoDB Certified Associate Developer', link: 'https://www.credly.com/badges/fd3362bd-743a-4c4d-a68e-b1fdc5d46811/public_url' },
-  { issuer: 'GitHub', name: 'GitHub Foundations', link: 'https://drive.google.com/file/d/1o0fkCAMRWTg1oMwxlqu6t6wnOpBv66Vq/view?usp=sharing' },
-  { issuer: 'Pearson', name: 'IT Specialist – HTML and CSS', link: 'https://www.credly.com/badges/e4a55298-e396-41d8-a032-283aafe9fab7/public_url' },
-  { issuer: 'Oracle', name: 'Java Certified Foundations Associate', link: 'https://drive.google.com/file/d/1g-yyceHtLg_k2RWiOIJqH0MMcGlaH90P/view?usp=sharing' },
-  { issuer: 'Oracle', name: 'Oracle Certified Foundations Associate – Database', link: 'https://drive.google.com/file/d/10-DzabbcH2vHrI6bAohoT8czKRZMa2kV/view?usp=drive_link' },
-  { issuer: 'Cisco', name: 'HTML Essentials', link: 'https://www.credly.com/badges/eb27ca95-3b2a-4948-bef9-0385d1d49055/public_url' },
-  { issuer: 'Cisco', name: 'CSS Essentials', link: 'https://www.credly.com/badges/3b37497f-6a61-4889-af3c-ed337a460a0b/public_url' },
-  { issuer: 'Cisco', name: 'JavaScript Essentials 1', link: 'https://www.credly.com/badges/9cdd4d55-6ecc-463f-b254-811ccdd0539c/public_url' },
-  { issuer: 'Cisco', name: 'JavaScript Essentials 2', link: 'https://www.credly.com/badges/0e1b036e-4318-4c8e-b750-2aca77314442/public_url' },
-  { issuer: 'Cisco', name: 'Python Essentials 1', link: 'https://www.credly.com/badges/0e21e3eb-d8ef-4770-95d7-dcbd6f8696b1/public_url' },
-  { issuer: 'Udemy', name: 'Microsoft Azure Hands-On Training (AZ-900, AZ-104, AZ-305)', link: 'https://drive.google.com/file/d/1KrXClhY0nJ3Acxs7DioNf4Q1rpaMvgPT/view?usp=sharing' },
+  { issuer: 'Scaled Agile', name: 'SAFe Agilist 6.0', link: '/assets/CertifiedSAFe6Agilist_Badge20230604-28-wdhdnu.pdf' },
+  { issuer: 'IIIT-B', name: 'ACP in Data Science - Business Analytics', link: '/assets/ACP_Data Science_Business Analyst.pdf' },
+  { issuer: 'Scrum Alliance', name: 'Certified Scrum Master (CSM)', link: '/assets/CSM.pdf' },
 ];
 
 export type Skill = { name: string; mono: string; note?: string };
@@ -243,25 +240,31 @@ export type SkillCategory = { id: string; title: string; subtitle: string; skill
 
 export const skillCategories: SkillCategory[] = [
   {
-    id: 'languages',
-    title: 'Languages',
-    subtitle: 'Java is the primary language',
+    id: 'agile-tools',
+    title: 'Agile Tools',
+    subtitle: 'Tools listed on the resume',
     skills: [
-      { name: 'Java', mono: 'Jv', note: 'Primary' },
-      { name: 'Python', mono: 'Py' },
-      { name: 'C', mono: 'C' },
-      { name: 'C++', mono: 'C+' },
+      { name: 'JIRA', mono: 'Ji' },
+      { name: 'Confluence', mono: 'Co' },
+      { name: 'SAFe', mono: 'Sa' },
     ],
   },
   {
-    id: 'frontend',
-    title: 'Frontend',
-    subtitle: 'Interfaces & the web platform',
+    id: 'analysis',
+    title: 'Analysis',
+    subtitle: 'Reporting and analytical skills',
     skills: [
-      { name: 'React', mono: 'Re' },
-      { name: 'HTML', mono: 'Ht' },
-      { name: 'CSS', mono: 'Cs' },
-      { name: 'JavaScript', mono: 'Js' },
+      { name: 'Microsoft Power BI', mono: 'PB', note: 'Primary' },
+      { name: 'Data Analysis', mono: 'DA' },
+    ],
+  },
+  {
+    id: 'people',
+    title: 'Communication',
+    subtitle: 'Collaboration and team support',
+    skills: [
+      { name: 'Communication Skills', mono: 'CS' },
+      { name: 'Mentoring', mono: 'Me' },
     ],
   },
   {
@@ -328,25 +331,25 @@ export const skillCategories: SkillCategory[] = [
  * where the skill appears in the projects, certifications or achievements on the resume.
  */
 export const skillEvidence: Record<string, string[]> = {
-  Java: ['Oracle Java Certified Foundations Associate', 'HackerRank 5-star'],
-  Python: ['PolicyGuard AI', 'Cisco Python Essentials 1', 'HackerRank 5-star'],
-  C: ['HackerRank 5-star'],
-  React: ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
-  HTML: ['Pearson IT Specialist – HTML and CSS', 'Cisco HTML Essentials'],
-  CSS: ['Pearson IT Specialist – HTML and CSS', 'Cisco CSS Essentials'],
-  JavaScript: ['Cisco JavaScript Essentials 1 & 2'],
-  'Node.js': ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
+  'JIRA': ['Oracle Java Certified Foundations Associate', 'HackerRank 5-star'],
+  'Confluence': ['PolicyGuard AI', 'Cisco Python Essentials 1', 'HackerRank 5-star'],
+  'Microsoft Power BI': ['HackerRank 5-star'],
+  'Data Analysis': ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
+  'Communication Skills': ['Pearson IT Specialist – HTML and CSS', 'Cisco HTML Essentials'],
+  'Mentoring': ['Pearson IT Specialist – HTML and CSS', 'Cisco CSS Essentials'],
+  'JavaScript': ['Cisco JavaScript Essentials 1 & 2'],
+  'Communication Skill': ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
   'Express.js': ['Payment Gateway System'],
-  Docker: ['Payment Gateway System'],
+  'Docker': ['Payment Gateway System'],
   'Docker Compose': ['Multi-Tenant SaaS Platform'],
   'REST APIs': ['PolicyGuard AI'],
-  Microservices: ['Payment Gateway System'],
+  'Microservices': ['Payment Gateway System'],
   'JWT Auth': ['Multi-Tenant SaaS Platform'],
   'Git / GitHub': ['GitHub Foundations'],
-  PostgreSQL: ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
-  MongoDB: ['MongoDB Certified Associate Developer'],
-  DBMS: ['NPTEL Database Management System', 'Oracle Database Foundations'],
-  DSA: ['AlgoUniversity Tech Fellow', '850+ problems solved'],
+  'PostgreSQL': ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
+  'MongoDB': ['MongoDB Certified Associate Developer'],
+  'DBMS': ['NPTEL Database Management System', 'Oracle Database Foundations'],
+  'DSA': ['AlgoUniversity Tech Fellow', '850+ problems solved'],
   'Cloud Computing (AWS)': ['AWS Certified AI Practitioner', 'AWS Academy Cloud Foundations'],
   'Machine Learning': ['B.Tech AI & ML', 'NPTEL Deep Learning'],
 };
@@ -377,32 +380,32 @@ const jade: Palette = { from: '#03150f', via: '#0d5a40', to: '#050a08', accent: 
 export const seasons: Season[] = [
   {
     number: 1,
-    title: 'The Beginning',
-    period: '2021 – 2023',
-    synopsis: 'Intermediate years at Sri Chaitanya Junior College, Kakinada — Mathematics, Physics and Chemistry.',
+    title: 'Professional Foundations',
+    period: '2017 – 2022',
+    synopsis: 'Procurement and spatial data experience, with Scrum team coordination responsibilities.',
     episodes: [
       {
         code: 'S01 E01',
-        title: 'The Foundation',
-        description: 'BIEAP, MPC at Sri Chaitanya Junior College, Kakinada — finishing with a score of 925/1000.',
-        tags: ['MPC', 'BIEAP'],
-        runtime: 'Jun 2021 – May 2023',
+        title: 'Procurement Specialist',
+        description: 'Supplier coordination focused on lead time, cost, delivery, schedule, and quality.',
+        tags: ['Supplier Management', 'Procurement'],
+        runtime: 'Jun 2017 – Aug 2018',
         palette: amber,
       },
     ],
   },
   {
     number: 2,
-    title: 'Enter: AI & ML',
+    title: 'Spatial Data and Scrum Mastery',
     period: '2023 – Present',
-    synopsis: 'B.Tech in Artificial Intelligence and Machine Learning at Aditya Engineering College, Surampalem.',
+    synopsis: 'Spatial Data Specialist II role with Scrum facilitation, release planning, stakeholder communication, and project risk tracking.',
     episodes: [
       {
         code: 'S02 E01',
         title: 'The Engineer',
         description: 'Bachelor of Technology in Artificial Intelligence and Machine Learning — CGPA 9.10.',
-        tags: ['B.Tech', 'AI & ML', 'CGPA 9.10'],
-        runtime: 'Oct 2023 – Present',
+        tags: ['Spatial Data', 'Scrum', 'Release Planning'],
+        runtime: 'Sep 2018 – Sep 2022',
         palette: violet,
       },
       {
@@ -431,18 +434,18 @@ export const seasons: Season[] = [
     episodes: [
       {
         code: 'S03 E01',
-        title: 'The Trainee',
-        description: 'Intensive Full-Stack Development training covering frontend, backend, database integration and deployment workflows.',
-        tags: ['FSD', 'Frontend', 'Backend', 'Databases'],
-        runtime: 'May 2025 – Jun 2026',
+        title: 'Team Coaching',
+        description: 'Coaches teams and product owners in Scrum practices and supports self-organization and continuous improvement.',
+        tags: ['Scrum', 'Coaching', 'Retrospectives'],
+        runtime: 'Sep 2022 – Present',
         palette: ocean,
       },
       {
         code: 'S03 E02',
-        title: 'The Developer',
-        description: 'Developed responsive web applications — user interfaces, server-side logic and database connectivity.',
-        tags: ['React', 'Node.js', 'Express.js'],
-        runtime: 'Technical Hub',
+        title: 'Sprint and Release Delivery',
+        description: 'Supports capacity-based prioritization, sprint performance analysis, risk mitigation, and release planning.',
+        tags: ['Sprint Planning', 'Performance Analysis', 'Release Planning'],
+        runtime: 'Sep 2022 – Present',
         palette: violet,
       },
       {
@@ -450,7 +453,7 @@ export const seasons: Season[] = [
         title: 'The Deployer',
         description: 'Deployed and managed web applications with version control, debugging and end-to-end development practices.',
         tags: ['Git / GitHub', 'Deployment'],
-        runtime: 'Technical Hub',
+        runtime: 'Sep 2022 – Present',
         palette: jade,
       },
     ],
@@ -508,12 +511,12 @@ export const seasons: Season[] = [
 export type TopPick = { label: string; title: string; detail: string; palette: Palette };
 
 export const topPicks: TopPick[] = [
-  { label: 'Primary language', title: 'Java', detail: 'Listed as primary on the resume • Oracle certified', palette: amber },
-  { label: 'The AI Original', title: 'PolicyGuard AI', detail: '500+ documents • 92% accuracy', palette: crimson },
-  { label: 'Biggest stage', title: 'Flipkart GRiD 7.0', detail: 'Semi-Finalist', palette: ocean },
-  { label: 'National selection', title: 'AlgoUniversity', detail: 'Tech Fellow', palette: violet },
-  { label: 'Academic high', title: 'Branch Topper', detail: '9.24 SGPA in AI & ML', palette: jade },
-  { label: 'Cloud credential', title: 'AWS AI Practitioner', detail: 'AWS Certified', palette: amber },
+  { label: 'Current role', title: 'QA Agile Lead', detail: 'Sodel Software Solutions • Sep 2022 – Present', palette: amber },
+  { label: 'Team scope', title: '35 Resources', detail: 'Across 4 Agile Release Trains', palette: crimson },
+  { label: 'Experience', title: '6.5 Years', detail: 'Professional experience stated in the resume', palette: ocean },
+  { label: 'Certification', title: 'SAFe Agilist 6.0', detail: 'Scaled Agile • June 2023', palette: violet },
+  { label: 'Certification', title: 'Certified Scrum Master', detail: 'Scrum Alliance • June 2021 – June 2022', palette: jade },
+  { label: 'Certification', title: 'AWS AI Lean 6 Sigma Expert', detail: 'Simplilearn • September – November 2021', palette: amber },
   { label: 'Problems solved', title: '850+', detail: 'LeetCode 350+ • GFG 300+ • CodeChef 200+', palette: crimson },
   { label: 'The training arc', title: '1 Year of FSD', detail: 'Technical Hub Pvt Ltd', palette: ocean },
   { label: 'Database credential', title: 'MongoDB', detail: 'Certified Associate Developer', palette: jade },
@@ -525,31 +528,31 @@ export type IntroSlide = { kicker: string; title: string; lines: string[]; chips
 
 export const introSlides: IntroSlide[] = [
   {
-    kicker: 'Education',
-    title: 'B.Tech · AI & ML',
-    lines: ['Aditya Engineering College, Surampalem', 'October 2023 – Present'],
-    chips: ['CGPA 9.10'],
+    kicker: 'Profile',
+    title: 'Scrum Master',
+    lines: ['Agile and optimistic Scrum Master', '6.5 years of professional experience'],
+    chips: ['Agile Delivery', 'Team Coaching', 'Scrum Facilitation', 'Release Planning'],
   },
   {
-    kicker: 'Skills',
-    title: 'Java first.',
-    lines: ['Python, C, C++ · React, Node.js, Express.js', 'PostgreSQL, MongoDB, MySQL · Docker, REST, JWT'],
+    kicker: 'Leadership',
+    title: 'Multi-team delivery',
+    lines: ['Responsible for 35 resources', 'Supporting multiple product deliveries across 4 ARTs'],
     chips: ['Java', 'Python', 'React', 'Node.js', 'Docker', 'PostgreSQL'],
   },
   {
-    kicker: 'Training',
-    title: 'The Training Arc',
-    lines: ['One year of intensive Full‑Stack Development training', 'Trainee · Technical Hub Pvt Ltd · May 2025 – June 2026', 'Frontend · Backend · Databases · Deployment'],
+    kicker: 'Experience',
+    title: 'Scrum Master & QA Lead',
+    lines: ['Sodel Software Solutions · September 2022 – Present', 'Here Solutions India · September 2018 – September 2022'],
   },
   {
-    kicker: 'Projects',
-    title: 'Three Originals',
-    lines: ['PolicyGuard AI — 500+ documents, 92% accuracy', 'Payment Gateway — 1,000+ transactions, 99.8% uptime', 'Multi-Tenant SaaS — 50+ tenants, zero unauthorized access'],
+    kicker: 'Education',
+    title: 'Business Analysis and Engineering',
+    lines: ['Data Science (Business Analyst) · IIIT-B', 'Bachelor of Engineering · University of Mumbai'],
   },
   {
-    kicker: 'Achievements',
-    title: 'Top Moments',
-    lines: ['Tech Fellow — AlgoUniversity', 'Semi-Finalist — Flipkart GRiD 7.0', 'AIML Branch Topper — 9.24 SGPA'],
+    kicker: 'Certified',
+    title: 'Agile and process improvement',
+    lines: ['SAFe Agilist 6.0 · Certified Scrum Master', 'Lean 6 Sigma Expert'],
   },
   {
     kicker: 'Certified',
@@ -563,7 +566,7 @@ export const introSlides: IntroSlide[] = [
   },
 ];
 
-export type ProfileId = 'sushmita' | 'recruiter' | 'developer' | 'creative';
+export type ProfileId = 'Swapnil' | 'recruiter' | 'AgileDelivery' | 'QualityFirst';
 export type SectionId = 'about' | 'journey' | 'originals' | 'picks' | 'skills' | 'moments' | 'story';
 
 export const viewerProfiles: {
@@ -574,8 +577,8 @@ export const viewerProfiles: {
   order: SectionId[];
 }[] = [
   {
-    id: 'sushmita',
-    name: 'Sushmita',
+    id: 'Swapnil',
+    name: 'Swapnil',
     blurb: 'The full series, in order',
     color: '#e5132b',
     order: ['about', 'journey', 'originals', 'picks', 'skills', 'moments', 'story'],
@@ -583,32 +586,32 @@ export const viewerProfiles: {
   {
     id: 'recruiter',
     name: 'Recruiter',
-    blurb: 'Resume, achievements & skills first',
+    blurb: 'Experience, skills, and education first',
     color: '#4cc9ff',
     order: ['story', 'moments', 'skills', 'originals', 'about', 'journey', 'picks'],
   },
   {
-    id: 'developer',
-    name: 'Developer',
-    blurb: 'Projects, stack & GitHub first',
+    id: 'AgileDelivery',
+    name: 'Agile Delivery',
+    blurb: 'Agile delivery and work history',
     color: '#46e3a8',
-    order: ['originals', 'skills', 'journey', 'moments', 'about', 'picks', 'story'],
+    order: ['originals', 'journey', 'skills', 'moments', 'about', 'picks', 'story'],
   },
   {
-    id: 'creative',
-    name: 'Creative',
-    blurb: 'The story arc & highlights first',
-    color: '#ffb547',
-    order: ['journey', 'picks', 'originals', 'moments', 'about', 'skills', 'story'],
+    id: 'QualityFirst',
+    name: 'Quality First',
+    blurb: 'Coaching and collaboration',
+    color: '#ff6b6b',
+    order: ['about', 'skills', 'journey', 'moments', 'originals', 'picks', 'story'],
   },
 ];
 
 export const sectionMeta: Record<SectionId, { nav: string; card: string; meta: string; palette: Palette }> = {
-  about: { nav: 'About', card: 'About Me', meta: 'The Pilot • Education & training', palette: violet },
-  journey: { nav: 'Journey', card: 'My Journey', meta: `${seasons.length} Seasons • ${seasons.reduce((n, s) => n + s.episodes.length, 0)} Episodes`, palette: amber },
-  originals: { nav: 'Originals', card: 'My Projects', meta: `${projects.length} Originals • 2026`, palette: crimson },
-  picks: { nav: 'Top Picks', card: 'Top Picks', meta: 'Top 10 from the resume', palette: jade },
+  about: { nav: 'About', card: 'About Me', meta: 'QA Team Lead • Agile delivery', palette: violet },
+  journey: { nav: 'Journey', card: 'Career Journey', meta: `${seasons.length} Career Chapters • ${seasons.reduce((n, s) => n + s.episodes.length, 0)} Episodes`, palette: amber },
+  originals: { nav: 'Originals', card: 'Professional Experience', meta: `${projects.length} The Roles • 2026`, palette: crimson },
+  picks: { nav: 'Top Picks', card: 'Top Highlights', meta: 'Top 10 from the resume', palette: jade },
   skills: { nav: 'Skills', card: 'My Skills', meta: `${skillCategories.length} Categories`, palette: ocean },
-  moments: { nav: 'Moments', card: 'My Achievements', meta: `${achievements.length} Moments • ${certifications.length} Certifications`, palette: crimson },
+  moments: { nav: 'Moments', card: 'Certifications', meta: `${achievements.length} Certifications • ${certifications.length} Certifications`, palette: crimson },
   story: { nav: 'Resume', card: 'The Full Story', meta: 'Resume • View & download', palette: violet },
 };
